@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="h-screen grid grid-cols-3 gap-2">
+        <div class="grid grid-rows-4">
+            <div class="bgimage flex flex-row items-center justify-center">
+                <div class="imagecontainer">
+                    <img class="image" src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+                    <p class="text-center">John Doe</p>
+                </div>
+                
+            </div>
+            <div class="grid grid-row-4 m-5">
+                <div class="mt-2">
+                    <span class="fa-solid fa-briefcase"></span>
+                    <span>  Designer</span>
+                </div>
+                <div class="mt-2">
+                    <span class="fa-solid fa-house"></span>
+                    <span>  London,UK</span>
+                </div>
+                <div class="mt-2">
+                    <span class="fa-solid fa-envelope"></span>
+                    <span>  abc@gmail.com</span>
+                </div>
+                <div class="mt-2">
+                    <span class="fa-solid fa-phone"></span>
+                    <span>  123322321121</span>
+                </div>
+            </div>
+            <div class="grid grid-row-4 m-5">
+                <div class="mt-2">
+                    <span class="fa-solid fa-star"></span>
+                    <span>  Skills</span>
+                </div>
+                <div class="mt-2 grid grid-cols-3 gap-2">
+                    <p class="bg-cyan-300 p-1 rounded-xl ">Photoshop</p>
+                    <p class="bg-cyan-300 p-1 rounded-xl ">Web Design</p>
+                    <p class="bg-cyan-300 p-1 rounded-xl ">Content Writing</p>
+                    <p class="bg-cyan-300 p-1 rounded-xl ">Gaming</p>
+                </div>
+                
+            </div>
+            <div class="grid grid-row-4 m-5">
+                <div class="mt-2">
+                    <span class="fa-solid fa-globe"></span>
+                    <span>  Languages</span>
+                </div>
+                <div class="mt-2 grid grid-cols-3 gap-2">
+                    <p class="bg-cyan-300 p-1 rounded-xl ">English</p>
+                    <p class="bg-cyan-300 p-1 rounded-xl ">German</p>
+                    <p class="bg-cyan-300 p-1 rounded-xl ">Spanish</p>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="details col-span-2 grid grid-rows-2 gap-2 ">
+            <div class="m-5 bg-gray-100 p-5">
+                <span class="fa-solid fa-briefcase"></span>
+                <p class="inline"> Work Experience</p>
+                <div class="grid grid-row-3 mt-10">
+                    <div>
+                        <h1 class="text-l">Frontend Developer/abc corporation</h1>
+                        <div class="mt-2">
+                            <span class="fa-solid fa-calendar-days"></span>
+                            <span>Jan 2022- <span class="bg-cyan-300 p-1 rounded-xl">current</span></span>
+                            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum debitis reiciendis facilis, beatae aliquam saepe aut nesciunt voluptatem rem officiis!</p>
+                        </div>
+                        <hr class="mt-3" >
+                    </div>
+                    <div class="mt-5">
+                        <h1 class="text-l">Frontend Developer/Dell corporation</h1>
+                        <div class="mt-2">
+                            <span class="fa-solid fa-calendar-days"></span>
+                            <span>Jan 2021- Jan 2022 </span>
+                            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum debitis reiciendis facilis, beatae aliquam saepe aut nesciunt voluptatem rem officiis!</p>
+                            <hr class="mt-3" >
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <h1 class="text-l">Frontend Developer/W3shool</h1>
+                        <div class="mt-2">
+                            <span class="fa-solid fa-calendar-days"></span>
+                            <span>Jan 2020- Jan 2021 </span>
+                            <p class="mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum debitis reiciendis facilis, beatae aliquam saepe aut nesciunt voluptatem rem officiis!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-5 bg-gray-100 p-5">
+                <!-- <i class="fa-solid fa-school"></i> -->
+                <span class="fa-solid fa-school"></span>
+                <p class="inline"> Education</p>
+                <div class="grid grid-row-3 mt-10">
+                    <div>
+                        <h1 class="text-l">Blue bird University</h1>
+                        <div class="mt-2">
+                            <span class="fa-solid fa-calendar-days"></span>
+                            <span>Jan 2022- <span class="bg-cyan-300 p-1 rounded-xl">current</span></span>
+                            <p class="mt-2">PhD in CSE</p>
+                        </div>
+                        <hr class="mt-3" >
+                    </div>
+                    <div class="mt-5">
+                        <h1 class="text-l">ABC University</h1>
+                        <div class="mt-2">
+                            <span class="fa-solid fa-calendar-days"></span>
+                            <span>Jan 2021- Jan 2022 </span>
+                            <p class="m-2">MSc in CSE</p>
+                            <hr class="mt-3" >
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <h1 class="text-l">KUET</h1>
+                        <div class="mt-2">
+                            <span class="fa-solid fa-calendar-days"></span>
+                            <span>Jan 2020- Jan 2021 </span>
+                            <p class="m-2">BSc in CSE</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
